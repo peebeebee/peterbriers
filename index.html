@@ -3,29 +3,37 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Peter Briers. Webdev.</title>
+    <title>Peter Briers. Web dev.</title>
     <style>
       * {
         margin: 0;
       }
       
       body {
-        line-height: 1.5;
         -webkit-font-smoothing: antialiased;
-        font: normal 1rem/1.4 Helvetica, Arial, sans-serif;
       }
 
       .center-hv {
-        min-height: 100dhv;
+        min-height: 100dvh;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
+      }
+
+      h1 {
+        font: normal 200 2.75rem/0.85 system-ui;
+      }
+
+      h2 {
+        font: 400 1.1rem/2 system-ui;
       }
     </style>
   </head>
   <body>
     <div class="center-hv">
       <h1>Peter Briers</h1>
+      <h2>Web developer</h2>
     </div>
   </body>
 </html>
